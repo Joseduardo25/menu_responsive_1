@@ -3,3 +3,32 @@
   font-weight: 100;
 }
 
+.nav_ul {
+  background: grey;
+  padding: 20px;
+}
+
+.nav_li {
+  display: inline-block;
+}
+
+.nav__responsive-ul {
+  height: 200px;
+  width: 200px;
+  background: red;
+  display: inline-block;
+  padding: 20px;
+  transition: 1s;
+}
+
+.nav__li-container {
+  width: auto;
+  margin: 10px;
+}
+
+.nav__responsive-ul:hover {
+  background: hotpink;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
